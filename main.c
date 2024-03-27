@@ -4,8 +4,6 @@
 #include<string.h>
 #include "includes.h"
 
-
-
 Game Game_New(void)
 {
     Game game;
@@ -283,6 +281,7 @@ void init_colors(void)
     init_pair(6,COLOR_YELLOW,COLOR_BLACK);
     init_pair(7,COLOR_BLACK,COLOR_WHITE);
 }
+
 int main()
 {
     initscr();
